@@ -1,0 +1,47 @@
+h3 {
+    font-size: 1.2em;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #428F9C;
+    color: white;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #234F57;
+    color: #FAF0E2;
+}
+
+.form{
+    width: 30%;
+    padding: 15px;
+}
